@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(222, 246, 252);
+    outline: none;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container {
+    width: 100vw;
+    height: 140px;
+     
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.tabelas {
+    width: 33vw;
+    height: 140px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.um{
+    width: 150px;
+    height: 140px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.dois{
+    width: 150px;
+    height: 140px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gerais {
+    width: 33vw;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+
+}
+
+.botoes {
+    width: 33vw;
+    height: 140px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button.tabelas{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(223, 223, 223);
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid black;
+
+
+
+}
+
+button.regiao{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(223, 223, 223);
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px  solid black;
+
+}
+
+button.tabelas:hover {
+    background-color: gray;
+}
+
+button.regiao:hover {
+    background-color: gray;
+    }
+
+div.interface{
+    width: 1100px;
+    height: 450px ;
+    
+    background-color: white;
+
+}
