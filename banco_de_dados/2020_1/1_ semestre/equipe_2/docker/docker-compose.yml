@@ -1,0 +1,15 @@
+version: '3.0'
+services:
+  postgres:
+    image: postgres
+    container_name: postgres_sgt
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DATABASE: mom
+    volumes:
+      - database-data:/var/lib/postgresql/data/
+volumes:
+  database-data:

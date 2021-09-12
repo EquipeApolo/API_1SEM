@@ -1,0 +1,12 @@
+$spacing: ();
+@for $i from 1 through 15 {
+    $spacing: map-merge($spacing, ($i:$i*8px));
+}
+
+@function spacing($value) {
+    @return map-get($spacing, $value);
+}
+
+@function shadow-depth($n, $color:rgba(#000, .2)) {
+    @return 0 #{$n}px #{$n * 2}px $color;
+}

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Feb 17 22:28:34 BRT 2020
+log4j-to-slf4j-2.10.0.jar>nexus-releases=
+log4j-to-slf4j-2.10.0.pom>nexus-releases=

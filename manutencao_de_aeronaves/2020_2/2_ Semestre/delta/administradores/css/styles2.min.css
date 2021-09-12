@@ -1,0 +1,36 @@
+body{
+	background:url(../img/airplane.jpg) ;
+	background-repeat: no-repeat;
+	}
+
+
+html{
+background:url(../img/airplane.jpg) ;
+	background-repeat: no-repeat;
+
+}
+	.menus {
+		margin-left: 25%;
+		margin-right: 25%;
+		padding: 10px;
+		background-color: : #000
+	}
+
+	.btn{
+   border: 0px;
+     background: #4ea8db;
+     margin-top: 5px !important;
+}
+
+h1{
+	margin-top: 60px;
+	font-size: 40;
+	font-family: arial black;
+	;
+}
+
+.button{
+
+font-size: 50px;
+
+}

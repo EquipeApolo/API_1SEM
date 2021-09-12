@@ -1,0 +1,91 @@
+version: 2.1
+
+orbs:
+    telegram: uniqueck/telegram-orb@0.0.1
+
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk:11-jdk-stretch
+    
+    steps:
+      - checkout
+
+      - run: 
+            name: Login to Dockerhub
+            command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+      - run:
+            name: push image to Dockerhub
+            command: mvn clean compile jib:build -Djib.httpTimeout=60000 -Dimage=mateusmsouza4/antenas-project:latest
+
+      # store raw contents of src code
+      - store_artifacts:
+          path: target/classes
+          destination: antena-project-backend
+
+      - telegram/status:
+          success_message: $CIRCLE_JOB commit $CIRCLE_SHA1 made by $CIRCLE_USERNAME succeeded! [.](https://img.icons8.com/color/144/000000/bmo.png)
+          failure_message: $CIRCLE_JOB commit $CIRCLE_SHA1 made by $CIRCLE_USERNAME failed :([.](https://img.icons8.com/color/144/000000/lumpy-space-princess.png)
+  
+  sonar_cloud:
+    # Run SonarCloud
+    docker:
+      - image: circleci/openjdk:11-jdk-stretch
+    
+    steps:
+      - checkout
+      - run:
+            name: Analyze on SonarCloud
+            command: mvn verify sonar:sonar
+
+      - telegram/status:
+          success_message: Sonar Analysis completed! Can someone check me out? https://sonarcloud.io/dashboard?id=antena-dream-team_AntenasService&branch=master [.](https://img.icons8.com/flat_round/144/000000/statistics.png)
+          failure_message: ${CIRCLE_JOB} failed :([.](https://img.icons8.com/color/144/000000/lumpy-space-princess.png)
+
+  deploy_aws_ec2:
+    machine:
+      image: ubuntu-1604:201903-01
+    
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "a6:78:87:79:cf:d6:72:1d:92:96:10:2c:2c:db:d3:c2"
+
+      - run:
+          name: Executing the Deploy in AWS EC2 - Production Environment
+          command: |
+            ssh -A -o "StrictHostKeyChecking no" $HOST_SERVER "rm -rf AntenaInfra && git clone https://github.com/antena-dream-team/AntenaInfra.git && cd AntenaInfra && sudo docker-compose up --build -d"
+              failure_message: ${CIRCLE_JOB} failed :( [.](https://img.icons8.com/color/144/000000/lumpy-space-princess.png)
+      - telegram/status:
+          success_message: deploy_aws_ec2 completed! [.](https://img.icons8.com/flat_round/144/000000/statistics.png)
+          failure_message: ${CIRCLE_JOB} failed :([.](https://img.icons8.com/color/144/000000/lumpy-space-princess.png)
+
+workflows:
+  version: 2
+  build:
+      jobs: 
+        - sonar_cloud:
+            context: ANTENA
+            filters:
+              branches:
+                only:
+                  - master
+
+        - build:
+            context: ANTENA
+            requires:
+              - sonar_cloud
+            filters:
+              branches:
+                only:
+                  - master
+
+        - deploy_aws_ec2:
+            context: ANTENA
+            requires:
+              - build
+            filters:
+              branches:
+                only:
+                 - master

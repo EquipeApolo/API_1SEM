@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Feb 17 22:29:00 BRT 2020
+maven-artifact-3.0.jar>nexus-releases=
+maven-artifact-3.0.pom>nexus-releases=

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Feb 17 22:28:34 BRT 2020
+javax.transaction-api-1.2.jar>nexus-releases=
+javax.transaction-api-1.2.pom>nexus-releases=

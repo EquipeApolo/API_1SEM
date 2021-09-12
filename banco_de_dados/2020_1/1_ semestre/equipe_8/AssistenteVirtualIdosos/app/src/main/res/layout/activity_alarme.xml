@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/Contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarme"
+        android:textSize="40sp"
+        android:textColor="#034055"
+        app:fontFamily="@font/fredoka_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <ImageView
+        android:id="@+id/microphone"
+        android:layout_width="189dp"
+        android:layout_height="188dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244"
+        app:srcCompat="@drawable/ic_microphone"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título"
+        android:textColor="#022F3E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/fredoka_one"
+        app:layout_constraintBottom_toTopOf="@+id/editText9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horário"
+        android:textSize="24sp"
+        android:textColor="#022F3E"
+        app:fontFamily="@font/fredoka_one"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dias da semana"
+        android:textSize="24sp"
+        android:textColor="#022F3E"
+        app:fontFamily="@font/fredoka_one"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText10" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/microphone"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText9"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/adicionar_contato"
+        android:layout_width="330dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="Para adicionar o contato,\nclique no microfone e diga o comando 'Adicionar',\napós informar todos os campos exigidos."
+        android:textColor="#022F3E"
+        android:textSize="18sp"
+        app:fontFamily="@font/fredoka_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adicionar_nome" />
+
+
+</android.support.constraint.ConstraintLayout>

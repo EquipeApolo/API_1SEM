@@ -1,0 +1,44 @@
+.box {
+    
+    background-color: white;
+    min-width: 400px;
+    box-shadow: shadow-depth(1);
+    border-radius: 3px; 
+
+    &__header {
+        padding: 0 spacing(3);
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 1px #DBFDDF;
+
+        .title {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            font-weight: $font-weight-semibold;
+
+            i {
+                width: 16px;
+                margin-right: spacing(2);
+            }
+        }
+    }
+
+    &__body {
+        padding: spacing(2) spacing(3);
+
+        &--no-horizontal-padding {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &__footer {
+        height: 46px;
+        display: flex;
+        align-items: center;
+        padding: 0 spacing(3);
+    }
+}

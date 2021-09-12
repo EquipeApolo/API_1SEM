@@ -1,0 +1,16 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd
+ http://www.liquibase.org/xml/ns/dbchangelog-ext
+ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <preConditions>
+        <dbms type="postgresql" />
+    </preConditions>
+
+    <!-- Sprint 0 -->
+    <!--include file="src/main/resources/db-scripts/scripts/sprint0/db.changelog-01-25-03-2021-doc-tables.sql"/-->
+    <!-- Sprint 3 -->
+    <include file="src/main/resources/db-scripts/script/sprint3/db.changelog-02-27-04-2021.sql"/>
+</databaseChangeLog>

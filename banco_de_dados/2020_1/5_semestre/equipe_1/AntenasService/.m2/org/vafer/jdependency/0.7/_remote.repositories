@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Feb 17 22:40:17 BRT 2020
+jdependency-0.7.jar>nexus-releases=
+jdependency-0.7.pom>nexus-releases=
