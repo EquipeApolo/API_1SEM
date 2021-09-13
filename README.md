@@ -31,6 +31,18 @@ Clonagem dos APIs para uma única conta, visando evitar a perda de algum dos pro
 
 <h2>Backlog do produto</h2>
 
+Tarefa | Prioridade
+:--- | :--- |
+Levantamento de dados de cada github de todos os APIs já feitos. | Alta Prioridade
+Clonagem dos projetos. | Alta Prioridade
+Upload dos projetos clonados para o github. | Alta Prioridade
+Protótipo do site. | Alta Prioridade
+Desenvolvimento do site. | Alta Prioridade
+Desenvolvimento de automatizador de clonagem de projetos. | Média Prioridade
+Criação de um manual de instalação/instrução. | Média Prioridade
+Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | Média Prioridade
+Organização dos projetos pela ordem estabelecida pelo cliente. | Baixa Prioridade
+Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 <h2>Tecnologias utilizadas</h2>
 
