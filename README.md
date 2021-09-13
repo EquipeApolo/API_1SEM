@@ -31,7 +31,6 @@ Clonagem dos APIs para uma única conta, visando evitar a perda de algum dos pro
 
 <h2>Backlog do produto</h2>
 
-![Backlog](images/backlog.png)
 
 <h2>Tecnologias utilizadas</h2>
 
