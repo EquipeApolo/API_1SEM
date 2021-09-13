@@ -35,7 +35,12 @@ Clonagem dos APIs para uma única conta, visando evitar a perda de algum dos pro
 
 <h2>Tecnologias utilizadas</h2>
 
-* <img src="images/html60px.ico"></img> <img src="images/css60px.ico"></img> <img src="images/teams.ico"></img>
+  <div>
+  <img width="50 rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/> HTML5
+  <img width="50 rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/> CSS3
+  <img width="50 rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/> GITHUB
+  <img width="50 rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/> PYTHON
+  </div>
 
 <h2>Burndown</h2>
 
