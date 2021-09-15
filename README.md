@@ -67,7 +67,7 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
    - [ ] Desenvolvimento de automatizador de clonagem de projetos.
    - [ ] Cadastro para modo Administrador do site.
 
-* Sprint 4 (18/10/2021 - 07/11/2021)
+* Sprint 4 (08/11/2021 - 28/11/2021)
    - [ ] Criação de um manual de instalação/instrução.
    - [ ] Testes de funcionamento e correções de eventuais bugs.
    - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
