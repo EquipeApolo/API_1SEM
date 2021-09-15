@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Cinelist</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_film_list">Image - Film list</string>
+    <string name="filmes">Filmes</string>
+    <string name="tab_listas">Listas</string>
+    <string name="tab_watchlist">Watchlist</string>
+    <string name="criar_lista">Criar lista</string>
+    <string name="ten_stars_prefix">/ 10</string>
+    <string name="nome_lista_exemplo">Minha lista de filmes</string>
+    <string name="descricao_lista_exemplo">Exemplo de descrição da lista de filmes</string>
+
+    <string name="filmes_populares">Filmes populares</string>
+    <string name="filmes_no_cinema">Filmes no cinema</string>
+
+    <string name="sinopse">Sinopse</string>
+    <string name="fotos">Fotos</string>
+    <string name="reviews">Reviews</string>
+    <string name="perdido_em_marte">Perdido em Marte</string>
+    <string name="_8_0_10_0">8,0/10,0</string>
+    <string name="_2015">2015</string>
+    <string name="_2h_31min">2h 31min</string>
+    <string name="elenco">Elenco</string>
+
+    <string name="cinelist">cinelist</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="esqueceu_sua_senha">Esqueci minha senha</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="confirme_o_password">Confirme o password</string>
+    <string name="nome">Nome</string>
+    <string name="username">Username</string>
+    <string name="alterar_e_mail">Alterar e-mail</string>
+    <string name="alterar_password">Alterar password</string>
+    <string name="sair">Sair</string>
+    <string name="home">Home</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="listas">Listas</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="intent_list_name">LIST_NAME</string>
+    <string name="intent_list_img">LIST_IMAGE</string>
+    <string name="movie_image">Movie Image</string>
+    <string name="busca_hint">Busque um filme pelo nome</string>
+    <string name="image_nada_encontrado">Image - Nada encontrado</string>
+    <string name="ops_nada_encontrado">Ops! Nada Encontrado</string>
+    <string name="busque_por_um_filme_g_nero_ou_ator">Busque por um filme</string>
+    <string name="imagem_de_usuario">Imagem de usuário</string>
+    <string name="editar_email">Editar email</string>
+    <string name="editar_senha">Editar senha</string>
+    <string name="descricao">Descrição</string>
+    <string name="editar_lista">Editar Lista</string>
+    <string name="deletar_lista">Deletar Lista</string>
+    <string name="editar">Editar</string>
+    <string name="nenhum_filme">Nenhum filme na lista</string>
+    <string name="filme">Filme</string>
+    <string name="boas_vindas">Boas vindas!</string>
+    <string name="ator_do_elenco">Ator do elenco</string>
+
+    <string name="facebook_app_id">203659214568330</string>
+    <string name="fb_login_protocol_scheme">fb203659214568330</string>
+    <string name="nenhuma_lista_cadastrada">Nenhuma lista cadastrada</string>
+    <string name="nenhum_filme_adicionado">Nenhum filme adicionado</string>
+    <string name="ainda_nao_possui_uma_conta">Não possui uma conta?</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="ou_faca_login_com">Ou continue com</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
+    <string name="senha">Senha</string>
+    <string name="email_ou_senha_invalidos">Email ou senha inválidos</string>
+
+
+    <string name="preencher_nome">Preencha o campo de nome!</string>
+    <string name="preencher_email">Preencha o campo de e-mail!</string>
+    <string name="preencher_senha">Preencha o campo de senha!</string>
+    <string name="preencher_confirmar_senha">As senhas fornecidas não correspondem!</string>
+    <string name="usuario_sucesso">Usuário cadastrado com sucesso!</string>
+    <string name="usuario_erro">Erro ao cadastrar usuário!</string>
+    <string name="novo_e_mail">Novo e-mail</string>
+    <string name="trocar_e_mail">Trocar e-mail</string>
+    <string name="redefinir_senha">Redefinir senha</string>
+    <string name="trocar_o_nome">Trocar o nome</string>
+
+    <string name="nome_alterado_sucesso">Nome alterado com sucesso.</string>
+    <string name="email_alterado_sucesso">E-mail alterado com sucesso.</string>
+    <string name="e_mail_atual">E-mail atual</string>
+    <string name="email_atual_errado">E-mail digitado não corresponde com o e-mail cadastrado</string>
+    <string name="email_novo_errado">E-mail novo deve ser diferente do e-mail atual</string>
+    <string name="editar_nome">Editar nome</string>
+    <string name="deletar">Deletar</string>
+    <string name="cancelar">Cancelar</string>
+
+
+</resources>

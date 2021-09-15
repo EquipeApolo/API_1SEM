@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_list_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".movielistdetails.view.MovieListDetailsFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_BackListDetails"
+                android:layout_width="@dimen/dim_32_dp"
+                android:layout_height="@dimen/dim_32_dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="@dimen/dim_24_dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/btnMoreVert"
+                android:layout_width="@dimen/dim_32_dp"
+                android:layout_height="@dimen/dim_32_dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardView_movieListDetailsFragment"
+                android:layout_width="@dimen/dim_espacamento_200dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dim_24_dp"
+                app:cardCornerRadius="@dimen/dimen_card_corner_radius"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="@+id/recyclerView_movieListDetailsFragment"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/img_movieListDetailsFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/image_film_list" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+
+            <TextView
+                android:id="@+id/txtTitle_movieListDetailsFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_espacamento_16dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingHorizontal="@dimen/dim_espacamento_16dp"
+                android:textAlignment="center"
+                android:textSize="@dimen/dim_24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView_movieListDetailsFragment"
+                tools:text="Título da lista" />
+
+            <TextView
+                android:id="@+id/txtDesc_movieListDetailsFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_espacamento_8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:padding="@dimen/dim_espacamento_8dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle_movieListDetailsFragment"
+                tools:text="@tools:sample/lorem/random" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_movieListDetailsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_24_dp"
+                android:overScrollMode="never"
+                android:paddingHorizontal="@dimen/dimen_md_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtDesc_movieListDetailsFragment"
+                tools:itemCount="0"
+                tools:listitem="@layout/item_movie" />
+
+            <LinearLayout
+                android:id="@+id/notfoundLayout_movieListDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtDesc_movieListDetailsFragment"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:layout_width="@dimen/dim_espacamento_150dp"
+                    android:layout_height="@dimen/dim_espacamento_150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/image_nada_encontrado"
+                    android:src="@drawable/ic_baseline_inbox_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dim_espacamento_15dp"
+                    android:text="@string/nenhum_filme_adicionado"
+                    android:textAlignment="center"
+                    android:textColor="#DEDEDE"
+                    android:textSize="@dimen/dim_20_sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbtnShare_movieListDetailsFragmentt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/dim_24_dp"
+        android:contentDescription="@string/criar_lista"
+        app:srcCompat="@drawable/ic_baseline_share_24"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

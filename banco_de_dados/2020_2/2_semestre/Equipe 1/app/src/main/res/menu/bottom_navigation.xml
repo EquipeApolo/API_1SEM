@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_round_home_24"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/page_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_round_search_24"
+        android:title="@string/pesquisar"/>
+    <item
+        android:id="@+id/page_lists"
+        android:enabled="true"
+        android:icon="@drawable/ic_round_favorite_24"
+        android:title="@string/listas"/>
+    <item
+        android:id="@+id/page_user"
+        android:enabled="true"
+        android:icon="@drawable/ic_round_person_24"
+        android:title="@string/usu_rio"/>
+</menu>

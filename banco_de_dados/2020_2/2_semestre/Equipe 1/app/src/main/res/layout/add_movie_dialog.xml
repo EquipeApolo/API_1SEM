@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/dim_10_dp"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/list_movie_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim_espacamento_20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dim_espacamento_40dp"
+        android:layout_gravity="center"
+        android:paddingVertical="5dp">
+
+        <Button
+            android:id="@+id/btnAdicionarMovie"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginHorizontal="@dimen/dim_espacamento_10dp"
+            android:gravity="center"
+            android:text="Adicionar"
+            android:textAllCaps="true"
+            app:backgroundTint="@color/purple_400" />
+
+        <Button
+            android:id="@+id/btnCancelarMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginHorizontal="@dimen/dim_espacamento_10dp"
+            android:gravity="center"
+            android:text="cancelar"
+            app:backgroundTint="@color/gray_600"
+            android:textAllCaps="true"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

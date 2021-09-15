@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/parentLayout_itemMovieList"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingVertical="@dimen/dimen_md_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView_itemMovieList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dimen_card_corner_radius"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_itemMovieList"
+            android:layout_width="@dimen/dimen_100_dp"
+            android:layout_height="@dimen/dimen_100_dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image_film_list" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/txtName_itemMovieList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_espacamento_16dp"
+        android:textSize="@dimen/dim_16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView_itemMovieList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView_itemMovieList"
+        app:layout_constraintTop_toTopOf="@+id/cardView_itemMovieList"
+        app:layout_constraintVertical_bias="0.33"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="wwwwwwwwwwwwwwwwwwwwwwwww" />
+
+    <TextView
+        android:id="@+id/txtCount_itemMovieList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_espacamento_16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView_itemMovieList"
+        app:layout_constraintStart_toEndOf="@+id/cardView_itemMovieList"
+        app:layout_constraintTop_toTopOf="@+id/cardView_itemMovieList"
+        app:layout_constraintVertical_bias="0.66"
+        tools:text="XX" />
+
+    <TextView
+        android:id="@+id/txtCountText_itemMovieList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_espacamento_8dp"
+        android:text="@string/filmes"
+        app:layout_constraintBottom_toBottomOf="@+id/txtCount_itemMovieList"
+        app:layout_constraintStart_toEndOf="@+id/txtCount_itemMovieList"
+        app:layout_constraintTop_toTopOf="@+id/txtCount_itemMovieList" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

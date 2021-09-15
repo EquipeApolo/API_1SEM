@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "575189203104",
+    "project_id": "cinelist-30563",
+    "storage_bucket": "cinelist-30563.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575189203104:android:709f21dd82904b79ad31c5",
+        "android_client_info": {
+          "package_name": "com.cgmdigitalhouse.cinelist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575189203104-9mbul1vjia74d92ibvj4ndigrsb2ku1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMjBc34V2rwSO9cHPaIvZ-92ur6yvJMJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575189203104-9mbul1vjia74d92ibvj4ndigrsb2ku1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

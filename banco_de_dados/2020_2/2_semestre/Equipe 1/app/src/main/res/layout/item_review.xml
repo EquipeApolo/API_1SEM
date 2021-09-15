@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dim_10_dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dim_espacamento_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_star_rate_24"
+                android:layout_marginStart="@dimen/dim_espacamento_10dp" />
+
+            <TextView
+                android:id="@+id/txtRateReviews"
+                android:layout_marginStart="@dimen/dim_espacamento_10dp"
+                android:layout_marginTop="@dimen/dim_2_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto"
+                tools:text="8,0"
+                />
+
+            <TextView
+                android:id="@+id/txtUsernameReviews"
+                android:layout_marginStart="@dimen/dim_espacamento_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_2_dp"
+                android:fontFamily="@font/changa_one_italic"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                tools:text="exemplo user" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtReview"
+            android:layout_marginStart="@dimen/dim_espacamento_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dim_espacamento_10dp"
+            android:textColor="@color/white"
+            tools:text="Filme Muito Bom"
+            android:fontFamily="@font/roboto"
+            android:textSize="@dimen/dim_16sp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_10_dp">
+
+    <TextView
+        android:id="@+id/txtConfirm_dialogConfirmDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim_espacamento_16dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Tem certeza que deseja deletar a lista XXX XXXXX XXXX? Esta ação não poderá ser desfeita" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dim_24_dp"
+        android:orientation="horizontal"
+        android:paddingVertical="5dp">
+
+        <Button
+            android:id="@+id/btnDeletar_dialogConfirmDelete"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dim_espacamento_10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/deletar"
+            android:textAllCaps="true"
+            app:backgroundTint="@color/purple_400" />
+
+        <Button
+            android:id="@+id/btnCancelar_dialogConfirmDelete"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dim_espacamento_10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/cancelar"
+            android:textAllCaps="true"
+            app:backgroundTint="@color/gray_600" />
+
+    </LinearLayout>
+
+</LinearLayout>

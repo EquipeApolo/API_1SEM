@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="facebook">#4267B2</color>
+    <color name="google">#F44336</color>
+    <color name="purple_200">#FFCE93D8</color>
+    <color name="purple_400">#FFAB47BC</color>
+    <color name="purple_800">#FF6A1B9A</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="gray_100">#FFF5F5F5</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_900">#FF212121</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

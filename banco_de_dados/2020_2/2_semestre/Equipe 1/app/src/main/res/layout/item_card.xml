@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dimen_100_dp"
+    android:layout_height="@dimen/dim_espacamento_220dp"
+    android:layout_marginEnd="@dimen/dimen_md_padding">
+
+    <ImageView
+        android:id="@+id/ivImageCard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_espacamento_150dp"
+        android:contentDescription="@string/movie_image"
+        app:layout_constraintEnd_toStartOf="@+id/tvNameCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/matrix"/>
+
+    <TextView
+        android:id="@+id/tvNameCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:inputType="none"
+        android:maxLines="3"
+        android:singleLine="false"
+        android:textSize="@dimen/dim_16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivImageCard"
+        app:layout_constraintVertical_bias="0.32999998"
+        tools:text="Harry Potter e o Prisioneiro de Azkaban" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_sm_padding">8dp</dimen>
+    <dimen name="dimen_md_padding">16dp</dimen>
+    <dimen name="dimen_card_corner_radius">8dp</dimen>
+    <dimen name="dimen_100_dp">100dp</dimen>
+
+    <dimen name="dimen_sm_margin">8dp</dimen>
+
+    <dimen name="dim_espacamento_60dp">60dp</dimen>
+    <dimen name="dim_espacamento_50dp">50dp</dimen>
+    <dimen name="dim_espacamento_40dp">40dp</dimen>
+    <dimen name="dim_espacamento_30dp">30dp</dimen>
+    <dimen name="dim_espacamento_20dp">20dp</dimen>
+    <dimen name="dim_espacamento_10dp">10dp</dimen>
+    <dimen name="dim_espacamento_15dp">15dp</dimen>
+    <dimen name="dim_espacamento_70dp">70dp</dimen>
+    <dimen name="dim_espacamento_8dp">8dp</dimen>
+    <dimen name="dim_espacamento_95dp">95dp</dimen>
+    <dimen name="dim_espacamento_125dp">125dp</dimen>
+    <dimen name="dim_espacamento_16dp">16dp</dimen>
+    <dimen name="dim_espacamento_12dp">12dp</dimen>
+    <dimen name="dim_espacamento_120dp">120dp</dimen>
+    <dimen name="dim_espacamento_150dp">150dp</dimen>
+    <dimen name="dim_espacamento_200dp">200dp</dimen>
+    <dimen name="dim_espacamento_220dp">220dp</dimen>
+
+    <dimen name="dim_8sp">8sp</dimen>
+    <dimen name="dim_12sp">12sp</dimen>
+    <dimen name="dim_16sp">16sp</dimen>
+    <dimen name="dim_24sp">24sp</dimen>
+    <dimen name="dim_36sp">36sp</dimen>
+    <dimen name="dim_45sp">45sp</dimen>
+    <dimen name="dim_32_dp">32dp</dimen>
+    <dimen name="dim_10_dp">10dp</dimen>
+    <dimen name="dim_18_dp">18dp</dimen>
+    <dimen name="dim_18_sp">18sp</dimen>
+    <dimen name="dim_24_dp">24dp</dimen>
+    <dimen name="dim_85_dp">85dp</dimen>
+    <dimen name="dim_4_dp">4dp</dimen>
+    <dimen name="dim_2_dp">2dp</dimen>
+    <dimen name="dim_20_sp">20sp</dimen>
+
+</resources>
