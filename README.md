@@ -46,7 +46,6 @@ Desenvolvimento de automatizador de clonagem de projetos. | Média Prioridade
 Criação de um manual de instalação/instrução. | Média Prioridade
 Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | Média Prioridade
 Cadastro para modo Administrador do site. | Média Prioridade
-Organização dos projetos pela ordem estabelecida pelo cliente. | Baixa Prioridade
 Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 <h2>Entregas</h2>
@@ -61,7 +60,6 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 * Sprint 2 (20/09/2021 - 10/10/2021)
    - [ ] Desenvolvimento do site (front e back-end).
-   - [ ] Organização dos projetos.
    
 * Sprint 3 (18/10/2021 - 07/11/2021)
    - [ ] Desenvolvimento de automatizador de clonagem de projetos.
