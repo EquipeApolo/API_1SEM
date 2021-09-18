@@ -52,11 +52,13 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 * Sprint 1 (30/08/2021 - 19/09/2021)
    - Nessa entrega, priorizamos pela clonagem e upload da maior parte dos projetos, garantindo que o cliente não tenha perda de dados. Também foi iniciado o processo de criação do site, com o protótipo das principais páginas.
+   <img src="artefatos/gif protótipo.gif"/>
    
-      - [x] Levantamento dos githubs.
-      - [x] Clonagem dos projetos.
-      - [x] Upload dos projetos no github.
-      - [x] Protótipo do site.
+     
+     - [x] Levantamento dos githubs.
+     - [x] Clonagem dos projetos.
+     - [x] Upload dos projetos no github.
+     - [x] Protótipo do site.
 
 * Sprint 2 (20/09/2021 - 10/10/2021)
    - Por já estarmos com os projetos clonados e upados e um protótipo da página de web, decidimos partir para o desenvolvimento do site institucional, onde todos os projetos estarão visíveis e de forma organizada.
