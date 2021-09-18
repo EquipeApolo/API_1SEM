@@ -16,9 +16,9 @@ Bryan Santos | Desenvolvedor | [Bryan Santos](https://github.com/bryansantos13)
 Davi Silvestre | Desenvolvedor | [Davi Silvestre](https://github.com/silvestredavi)
 Jeniffer Pereira | Desenvolvedor | [Jeniffer Pereira](https://github.com/jennyads) 
 
-<h2>Proposta</h2>
+<h2>Visão</h2>
 
-Clonagem dos APIs para uma única conta, visando evitar a perda de algum dos projetos. E o desenvolvimento de um site institucional para a exposição desses projetos.
+  Desde 2020, a Fatec de São José dos Campos instituiu o Aprendizado por Projetos Integrados, exigido em todos os cursos e turmas. Com isso, várias equipes ficaram com os esses projetos salvos em suas contas pessoais do GitHub, o que pode gerar possíveis perdas dos mesmos. Portanto, para eliminar essas possíveis perdas, é de desejo do cliente que os mesmos fossem clonados e upados em uma conta da FatecSJC, facilitando também sua visualização.
 
 * Requistos funcionais
    ---
@@ -59,16 +59,22 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
       - [x] Protótipo do site.
 
 * Sprint 2 (20/09/2021 - 10/10/2021)
-   - [ ] Desenvolvimento do site (front e back-end).
+   - Por já estarmos com os projetos clonados e upados e um protótipo da página de web, decidimos partir para o desenvolvimento do site institucional, onde todos os projetos estarão visíveis e de forma organizada.
+   
+      - [ ] Desenvolvimento do site (front e back-end).
    
 * Sprint 3 (18/10/2021 - 07/11/2021)
-   - [ ] Desenvolvimento de automatizador de clonagem de projetos.
-   - [ ] Cadastro para modo Administrador do site.
+   - Agora, visando facilitar o processo de clonagem de projetos futuros, iremos desenvolver um automatizador de projetos de git. 
+   
+      - [ ] Desenvolvimento de automatizador de clonagem de projetos.
+      - [ ] Cadastro para modo Administrador do site.
 
 * Sprint 4 (08/11/2021 - 28/11/2021)
-   - [ ] Criação de um manual de instalação/instrução.
-   - [ ] Testes de funcionamento e correções de eventuais bugs.
-   - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
+   - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação são importantes, mas sendo priorizado a busca por projetos não encontrados na primeira sprint, como as dos cursos de Logística e Manufatura Avançada.
+   
+      - [ ] Criação de um manual de instalação/instrução.
+      - [ ] Testes de funcionamento e correções de eventuais bugs.
+      - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
 
 <h2>Tecnologias utilizadas</h2>
 
