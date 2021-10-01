@@ -1,0 +1,59 @@
+body{
+	margin: 0px;
+}
+
+.fatec, nav{
+	display: inline-block;
+}
+
+header, footer{
+	background-color: gray;
+}
+
+header > nav{
+	padding-bottom:5%;
+	padding-left: 70%;
+}
+
+nav > a{
+	text-decoration: none;
+	color: black;
+	padding: 12px;
+}
+
+nav > aside > a{
+	text-decoration: none;
+	color: black;
+	padding: 12px;
+}
+
+nav > a:hover{
+	background-color: white;
+	
+}
+
+.fatec{
+	padding-top: 4%;
+}
+
+
+.fatec-gov{
+	padding: 30px;
+	padding-right: 20%;
+	padding-left: 10%;
+}
+
+.social{
+	padding-left: 20%;
+	margin-left: 20%;
+	margin-bottom: 20%;
+}
+
+.link{
+	padding-bottom: 13px;
+	margin-left: 32%;
+}
+
+nav >  .link > a:hover{
+	background-color: white;
+}
