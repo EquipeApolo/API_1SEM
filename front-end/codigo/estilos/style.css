@@ -57,3 +57,27 @@ nav > a:hover{
 nav >  .link > a:hover{
 	background-color: white;
 }
+
+h1{
+	margin-top: 0px;
+}
+
+main{
+	margin: auto;
+	text-align: center;
+}
+
+.top{
+	background-color: gray;
+}
+
+article{
+	padding: 9px ;
+	text-align: justify;
+	text-indent: 20px;
+}
+
+article > aside{
+	margin-left: 10%;
+	margin-right: 10%;
+}
