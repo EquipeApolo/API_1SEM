@@ -61,22 +61,22 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
      - [x] Protótipo do site.
 
 * Sprint 2 (20/09/2021 - 10/10/2021)
-   - Por já estarmos com os projetos clonados e upados e um protótipo da página de web, decidimos partir para o desenvolvimento do site institucional, onde todos os projetos estarão visíveis e de forma organizada.
+   - Por já estarmos com os projetos clonados e upados e um protótipo da página de web, decidimos partir para o desenvolvimento do site institucional, onde todos os projetos estarão visíveis e de forma organizada. Também será entregue um automatizador para o processo de clonagem de repositórios.
    
       - [ ] Desenvolvimento do site (front e back-end).
+      - [ ] Desenvolvimento de automatizador de clonagem de projetos.
    
 * Sprint 3 (18/10/2021 - 07/11/2021)
-   - Agora, visando facilitar o processo de clonagem de projetos futuros, iremos desenvolver um automatizador de projetos de git. 
+   - Para a terceira sprint, iremos entregar o modo de administrador do site, com o cadastro pedido pelo cliente. Também será entreguie os repositórios não encontrados na primeira sprint.
    
-      - [ ] Desenvolvimento de automatizador de clonagem de projetos.
       - [ ] Cadastro para modo Administrador do site.
+      - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
 
 * Sprint 4 (08/11/2021 - 28/11/2021)
-   - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação são importantes, mas sendo priorizado a busca por projetos não encontrados na primeira sprint, como as dos cursos de Logística e Manufatura Avançada.
+   - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação serão entregues.
    
       - [ ] Criação de um manual de instalação/instrução.
       - [ ] Testes de funcionamento e correções de eventuais bugs.
-      - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
 
 <h2>Tecnologias utilizadas</h2>
 
