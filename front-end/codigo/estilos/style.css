@@ -2,7 +2,7 @@ body{
 	margin: 0px;
 }
 
-.fatec, nav{
+nav{
 	display: inline-block;
 }
 
@@ -10,12 +10,63 @@ header, footer{
 	background-color: gray;
 }
 
-header > nav{
-	padding-bottom:5%;
-	padding-left: 70%;
+ul{
+	list-style: none;
+	padding: 0px;
 }
 
-nav > a{
+li{
+	padding: 0 20px;
+}
+
+.header-nav{
+	padding: 0 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav, ul{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+button{
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 36px;
+	position: absolute;
+	right: 10px;
+	top: 30px;
+	display: none;
+}
+
+
+
+@media (max-width: 800px){
+	.header-nav{
+		flex-direction: column; /*Talvez tirar*/
+		align-items: flex-start;
+	}
+	.fatec{
+		width: 250px;
+		align-self: auto;
+	}
+	ul{
+		text-align: center;
+		
+	}
+	button{
+		display: flex;
+	}
+	li, ul{
+		width: 100%;
+	}
+}
+
+
+a{
 	text-decoration: none;
 	color: black;
 	padding: 12px;
@@ -27,8 +78,8 @@ nav > aside > a{
 	padding: 12px;
 }
 
-nav > a:hover{
-	background-color: white;
+nav > ul > li > a:hover, button:hover{
+	background-color: rgba(225, 225, 255, 0.5);
 	
 }
 
@@ -55,7 +106,7 @@ nav > a:hover{
 }
 
 nav >  .link > a:hover{
-	background-color: white;
+	background-color: rgba(225, 225, 255, 0.5);
 }
 
 h1{
@@ -74,7 +125,7 @@ main{
 article{
 	padding: 9px ;
 	text-align: justify;
-	text-indent: 20px;
+	text-indent: 10px;
 }
 
 article > aside{
