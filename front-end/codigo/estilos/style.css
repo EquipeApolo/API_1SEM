@@ -31,17 +31,13 @@ li{
 	
 }
 
-button{
-	background-color: transparent;
-	border: none;
-	color: white;
-	font-size: 36px;
-	position: absolute;
-	right: 10px;
-	top: 30px;
-	display: none;
+/*display: grid;*/
+@media (max-width: 810px){
+	.social, .link{
+		display:flex;
+		
+	}
 }
-
 
 
 @media (max-width: 800px){
@@ -56,9 +52,6 @@ button{
 	ul{
 		text-align: center;
 		
-	}
-	button{
-		display: flex;
 	}
 	li, ul{
 		width: 100%;
@@ -78,7 +71,7 @@ nav > aside > a{
 	padding: 12px;
 }
 
-nav > ul > li > a:hover, button:hover{
+nav > ul > li > a:hover{
 	background-color: rgba(225, 225, 255, 0.5);
 	
 }
@@ -90,19 +83,20 @@ nav > ul > li > a:hover, button:hover{
 
 .fatec-gov{
 	padding: 30px;
-	padding-right: 20%;
-	padding-left: 10%;
+	margin-left: 20%;
 }
 
+
+
 .social{
-	padding-left: 20%;
-	margin-left: 20%;
-	margin-bottom: 20%;
+	padding-left: 50%;
+	margin-bottom: 10%;
 }
 
 .link{
 	padding-bottom: 13px;
-	margin-left: 32%;
+	margin-left: 34%;
+	margin-top: 12px;
 }
 
 nav >  .link > a:hover{
