@@ -1,0 +1,88 @@
+main{
+	background-color: #c2e7f1;
+}
+
+
+#h1{
+	margin-top: 10px;
+	margin-bottom: 60px;
+	font-size: 50px;
+	text-align: center;
+}
+.fatec-p{
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.aside-p{
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 3px 2px 10px black;
+	margin-bottom: 50px;
+}
+
+.pasta{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+@media (max-width: 1240px){
+	iframe{
+		width: 300px;
+		height: 220px;
+		
+	}
+}
+
+@media (max-width: 980px){
+	iframe{
+		width: 250px;
+		height: 195px;
+		
+	}
+}
+
+@media (max-width: 805px){
+	iframe{
+		width: 200px;
+		height: 150px;
+		
+	}
+}
+
+
+@media (max-width: 600px){
+	iframe{
+		width: 150px;
+		height: 100px;
+		
+	}
+}
+
+@media (max-width: 550px){
+	iframe{
+		width: 320px;
+		height: 200px;
+		
+	}
+}
+
+
+@media (max-width: 450px){
+	iframe{
+		width: 280px;
+		height: 200px;
+		
+	}
+}
+
+@media (max-width: 370px){
+	iframe{
+		width: 240px;
+		height: 200px;
+		
+	}
+}
