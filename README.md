@@ -12,7 +12,6 @@ Nome | Função | Github
 :--- | :--- | :---
 Thales Kerber |Scrum Master | [Thales Kerber](https://github.com/thaleskerber)
 Mateus Silva | Desenvolvedor | [Mateus Silva](https://github.com/mateushlsilva)
-Bryan Santos | Desenvolvedor | [Bryan Santos](https://github.com/bryansantos13)
 Davi Silvestre | Desenvolvedor | [Davi Silvestre](https://github.com/silvestredavi)
 Jeniffer Pereira | Desenvolvedor | [Jeniffer Pereira](https://github.com/jennyads) 
 
