@@ -12,7 +12,6 @@ Nome | Função | Github
 :--- | :--- | :---
 Thales Kerber |Scrum Master | [Thales Kerber](https://github.com/thaleskerber)
 Mateus Silva | Desenvolvedor | [Mateus Silva](https://github.com/mateushlsilva)
-Bryan Santos | Desenvolvedor | [Bryan Santos](https://github.com/bryansantos13)
 Davi Silvestre | Desenvolvedor | [Davi Silvestre](https://github.com/silvestredavi)
 Jeniffer Pereira | Desenvolvedor | [Jeniffer Pereira](https://github.com/jennyads) 
 
@@ -25,13 +24,13 @@ Jeniffer Pereira | Desenvolvedor | [Jeniffer Pereira](https://github.com/jennyad
    - [x] Clonagem dos githubs disponibilizados no site da Fatec SJC.
    - [x] Todos os projetos devem seguir uma organização por curso, semestre, turma e equipe.
    - [ ] Gerar um código para incorporar na página da Fatec SJC contendo a indexação de todos os projetos.
-   - [ ] Linguagens Python, HTML, CSS.
-   - [ ] Site para a exposição dos projetos.
+   - [x] Linguagens Python, HTML, CSS.
+   - [x] Site para a exposição dos projetos.
 
 * Requisitos não funcionais
   ---
   - [ ] Manual de instalação.
-  - [ ] Organização do github.
+  - [x] Organização do github.
   
 <h2>Backlog do produto</h2>
 
