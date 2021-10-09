@@ -9,6 +9,10 @@ nav{
 header, footer{
 	background-color: gray;
 }
+footer{
+	position: flex;
+	bottom: 0;
+}
 
 ul{
 	list-style: none;
@@ -143,8 +147,3 @@ main{
   .dropdown:hover .dropbtn {
     background-color: rgba(242, 0, 0, 0.664);
   }
-.footer{
-	position:absolute;
-   	bottom:0;
-	background-color: gray;
-}
