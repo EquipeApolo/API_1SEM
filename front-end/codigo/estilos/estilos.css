@@ -19,11 +19,6 @@ li{
 	padding: 0 20px;
 }
 
-header > nav{
-	padding-bottom:5%;
-	padding-left: 70%;
-}
-
 .header-nav{
 	padding: 0 20px;
 	justify-content: space-between;
@@ -62,6 +57,7 @@ nav >  .link > a:hover{
 }
 main{
 	margin: auto;
+	text-align: center;
 }
 
 .top{
@@ -71,24 +67,7 @@ main{
 *{
     margin:0;padding: 0;
 }
-html{
-    background-color: #F3F3F3;
-    box-sizing: border-box;
-    font-family: "arial";
-    line-height:18px;
-    font-size: 12px;
-}
-html, body, .container{
-    height: 100%;
-}
-.container{
-    border-radius: 20px;
-    line-height: 30px;
-    color:white;
-}
-.logo{
-    width:120px;
-    margin-bottom: 20px;
+
 }
 /*display*/
 @media (max-width: 810px){
