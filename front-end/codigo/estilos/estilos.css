@@ -164,3 +164,8 @@ html, body, .container{
   .dropdown:hover .dropbtn {
     background-color: rgba(242, 0, 0, 0.664);
   }
+.footer{
+	position:absolute;
+   	bottom:0;
+    	width:100%;
+}
