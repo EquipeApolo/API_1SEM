@@ -90,6 +90,33 @@ html, body, .container{
     width:120px;
     margin-bottom: 20px;
 }
+/*display*/
+@media (max-width: 810px){
+	.social, .link{
+		display:flex;
+		
+	}
+}
+
+
+@media (max-width: 800px){
+	.header-nav{
+		flex-direction: column; /*Talvez tirar*/
+		align-items: flex-start;
+	}
+	.fatec{
+		width: 250px;
+		align-self: auto;
+	}
+	ul{
+		text-align: center;
+		
+	}
+	li, ul{
+		width: 100%;
+	}
+}
+/**/
 /* Style The Dropdown Button */
 .dropbtn {
     background-color:red;
