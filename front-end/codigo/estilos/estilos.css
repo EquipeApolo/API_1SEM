@@ -36,23 +36,6 @@ header > nav{
 	
 }
 
-nav > a{
-	text-decoration: none;
-	color: black;
-	padding: 12px;
-}
-
-nav > aside > a{
-	text-decoration: none;
-	color: black;
-	padding: 12px;
-}
-
-nav > a:hover{
-	background-color: white;
-	
-}
-
 .fatec{
 	padding-top: 4%;
 }
@@ -84,10 +67,7 @@ main{
 .top{
 	background-color: gray;
 }
-article > aside{
-	margin-left: 10%;
-	margin-right: 10%;
-}
+
 *{
     margin:0;padding: 0;
 }
