@@ -2,21 +2,38 @@ body{
 	margin: 0px;
 }
 
-.fatec, nav{
+nav{
 	display: inline-block;
 }
 
 header, footer{
 	background-color: gray;
 }
-footer{
-        position:absolute;
-        bottom:0;
-        width:100%;
+
+ul{
+	list-style: none;
+	padding: 0px;
 }
+
+li{
+	padding: 0 20px;
+}
+
 header > nav{
 	padding-bottom:5%;
 	padding-left: 70%;
+}
+
+.header-nav{
+	padding: 0 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav, ul{
+	display: flex;
+	flex-direction: row;
+	
 }
 
 nav > a{
