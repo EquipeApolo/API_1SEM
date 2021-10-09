@@ -10,7 +10,7 @@ header, footer{
 	background-color: gray;
 }
 footer{
-	position: flex;
+	position: absolute;
 	bottom: 0;
 }
 
