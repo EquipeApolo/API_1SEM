@@ -56,6 +56,18 @@ li{
 	margin-left: 32%;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+	padding: 12px;
+}
+
+nav > aside > a{
+	text-decoration: none;
+	color: black;
+	padding: 12px;
+
+}
 nav >  .link > a:hover{
 	background-color: white;
 }
