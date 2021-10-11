@@ -23,7 +23,7 @@ Jeniffer Pereira | Desenvolvedor | [Jeniffer Pereira](https://github.com/jennyad
    ---
    - [x] Clonagem dos githubs disponibilizados no site da Fatec SJC.
    - [x] Todos os projetos devem seguir uma organização por curso, semestre, turma e equipe.
-   - [ ] Gerar um código para incorporar na página da Fatec SJC contendo a indexação de todos os projetos.
+   - [x] Gerar um código para incorporar na página da Fatec SJC contendo a indexação de todos os projetos.
    - [x] Linguagens Python, HTML, CSS.
    - [x] Site para a exposição dos projetos.
 
@@ -61,9 +61,11 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 * Sprint 2 (20/09/2021 - 10/10/2021)
    - Por já estarmos com os projetos clonados e upados e um protótipo da página de web, decidimos partir para o desenvolvimento do site institucional, onde todos os projetos estarão visíveis e de forma organizada. Também será entregue um automatizador para o processo de clonagem de repositórios.
-   
-      - [ ] Desenvolvimento do site (front e back-end).
-      - [ ] Desenvolvimento de automatizador de clonagem de projetos.
+      <img src="imagens/automatizador_sprint2.gif"/>
+      <img src="imagens/site_sprint2.gif"/>
+     
+      - [x] Desenvolvimento do site.
+      - [x] Desenvolvimento de automatizador de clonagem de projetos.
    
 * Sprint 3 (18/10/2021 - 07/11/2021)
    - Para a terceira sprint, iremos entregar o modo de administrador do site, com o cadastro pedido pelo cliente. Também será entreguie os repositórios não encontrados na primeira sprint.
