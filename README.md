@@ -43,9 +43,9 @@ Protótipo do site. | Alta Prioridade
 Desenvolvimento do site. | Alta Prioridade
 Desenvolvimento de automatizador de clonagem de projetos. | Média Prioridade
 Criação de um manual de instalação/instrução. | Média Prioridade
-Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | Média Prioridade
 Cadastro para modo Administrador do site. | Média Prioridade
 Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
+Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | Seria bom ter
 
 <h2>Entregas</h2>
 
@@ -70,8 +70,7 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 * Sprint 3 (18/10/2021 - 07/11/2021)
    - Para a terceira sprint, iremos entregar o modo de administrador do site, com o cadastro pedido pelo cliente. Também será entreguie os repositórios não encontrados na primeira sprint.
    
-      - [ ] Cadastro para modo Administrador do site.
-      - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
+      - [ ] Cadastro para modo Administrador do site e página de Administrador.
 
 * Sprint 4 (08/11/2021 - 28/11/2021)
    - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação serão entregues.
