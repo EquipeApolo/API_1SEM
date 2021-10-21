@@ -40,8 +40,8 @@ Levantamento de dados de cada github de todos os APIs já feitos. | Alta Priorid
 Clonagem dos projetos. | Alta Prioridade
 Upload dos projetos clonados para o github. | Alta Prioridade
 Protótipo do site. | Alta Prioridade
-Desenvolvimento do site. | Alta Prioridade
-Desenvolvimento de automatizador de clonagem de projetos. | Média Prioridade
+Desenvolvimento de automatizador de clonagem de projetos. | Alta Prioridade
+Desenvolvimento do site. | Média Prioridade
 Criação de um manual de instalação/instrução. | Média Prioridade
 Cadastro para modo Administrador do site. | Média Prioridade
 Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
