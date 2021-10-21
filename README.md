@@ -68,7 +68,7 @@ Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | 
       - [x] Desenvolvimento de automatizador de clonagem de projetos.
    
 * Sprint 3 (18/10/2021 - 07/11/2021)
-   - Para a terceira sprint, iremos entregar o modo de administrador do site, com o cadastro pedido pelo cliente. Também será entreguie os repositórios não encontrados na primeira sprint.
+   - Para a terceira sprint, iremos entregar o modo de administrador do site, com o cadastro pedido pelo cliente. 
    
       - [ ] Cadastro para modo Administrador do site e página de Administrador.
 
@@ -77,6 +77,7 @@ Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | 
    
       - [ ] Criação de um manual de instalação/instrução.
       - [ ] Testes de funcionamento e correções de eventuais bugs.
+      - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
 
 <h2>Tecnologias utilizadas</h2>
 
