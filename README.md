@@ -50,8 +50,11 @@ Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | 
 <h2>MVP (Mínimo Produto Viável)</h2>
 
    * Protótipo do site, entregue na primeira sprint.
+   
      <img src="artefatos/gif protótipo.gif"/>
-   * Automatizador de clonagens e site desenvolvido, entregue na segunda sprint.
+     
+   * Automatizador de clonagens e site desenvolvido, entregues na segunda sprint.
+   
      <img src="imagens/automatizador_sprint2.gif"/>
      <img src="imagens/site_sprint2.gif"/>
 
