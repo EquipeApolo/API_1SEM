@@ -47,11 +47,16 @@ Cadastro para modo Administrador do site. | Média Prioridade
 Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | Seria bom ter
 
+<h2>MVP (Mínimo Produto Viável)</h2>
+
+   <img src="artefatos/gif protótipo.gif"/>
+   <img src="imagens/automatizador_sprint2.gif"/>
+   <img src="imagens/site_sprint2.gif"/>
+
 <h2>Entregas</h2>
 
 * Sprint 1 (30/08/2021 - 19/09/2021)
    - Nessa entrega, priorizamos pela clonagem e upload da maior parte dos projetos, garantindo que o cliente não tenha perda de dados. Também foi iniciado o processo de criação do site, com o protótipo das principais páginas.
-   <img src="artefatos/gif protótipo.gif"/>
    
      
      - [x] Levantamento dos githubs.
@@ -61,8 +66,6 @@ Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | 
 
 * Sprint 2 (20/09/2021 - 10/10/2021)
    - Por já estarmos com os projetos clonados e upados e um protótipo da página de web, decidimos partir para o desenvolvimento do site institucional, onde todos os projetos estarão visíveis e de forma organizada. Também será entregue um automatizador para o processo de clonagem de repositórios.
-      <img src="imagens/automatizador_sprint2.gif"/>
-      <img src="imagens/site_sprint2.gif"/>
      
       - [x] Desenvolvimento do site.
       - [x] Desenvolvimento de automatizador de clonagem de projetos.
