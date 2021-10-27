@@ -43,7 +43,7 @@ Protótipo do site. | Alta Prioridade
 Desenvolvimento de automatizador de clonagem de projetos. | Alta Prioridade
 Desenvolvimento do site. | Média Prioridade
 Criação de um manual de instalação/instrução. | Média Prioridade
-Cadastro para modo Administrador do site. | Média Prioridade
+Página para pedir acesso ao projeto. | Média Prioridade
 Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 <h2>MVP (Mínimo Produto Viável)</h2>
@@ -77,7 +77,7 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 * Sprint 3 (18/10/2021 - 07/11/2021)
    - Para a terceira sprint, iremos entregar o modo de administrador do site, com o cadastro pedido pelo cliente. 
    
-      - [ ] Cadastro para modo Administrador do site e página de Administrador.
+      - [ ] Página, com formulário, para requisitar acesso ao projeto.
 
 * Sprint 4 (08/11/2021 - 28/11/2021)
    - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação serão entregues.
