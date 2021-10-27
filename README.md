@@ -45,7 +45,6 @@ Desenvolvimento do site. | Média Prioridade
 Criação de um manual de instalação/instrução. | Média Prioridade
 Cadastro para modo Administrador do site. | Média Prioridade
 Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
-Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | Seria bom ter
 
 <h2>MVP (Mínimo Produto Viável)</h2>
 
@@ -85,7 +84,6 @@ Buscar os githubs dos projetos que não estavam listados no site da FatecSJC. | 
    
       - [ ] Criação de um manual de instalação/instrução.
       - [ ] Testes de funcionamento e correções de eventuais bugs.
-      - [ ] Buscar os githubs dos projetos que não estavam listados no site da FatecSJC.
 
 <h2>Tecnologias utilizadas</h2>
 
