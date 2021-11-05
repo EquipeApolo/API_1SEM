@@ -447,6 +447,110 @@ def Turma_6ºA_Equipe_6_2021_1():
 def bd():   
     return render_template("BD.html")
 
+#----------2020_1 ----------------
+
+#-------- 1ºA ------------
+
+@app.route('/Banco_de_Dados/2020_1_1ºsem_Equipe_2')
+def Banco_de_Dados_2020_1_1ºsem_Equipe_2():   
+    return render_template("Banco_de_Dados/2020_1_1ºsem_Equipe_2.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_1ºsem_Equipe_3')
+def Banco_de_Dados_2020_1_1ºsem_Equipe_3():   
+    return render_template("Banco_de_Dados/2020_1_1ºsem_Equipe_3.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_1ºsem_Equipe_6')
+def Banco_de_Dados_2020_1_1ºsem_Equipe_6():   
+    return render_template("Banco_de_Dados/2020_1_1ºsem_Equipe_6.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_1ºsem_Equipe_8')
+def Banco_de_Dados_2020_1_1ºsem_Equipe_8():   
+    return render_template("Banco_de_Dados/2020_1_1ºsem_Equipe_8.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_1ºsem_Equipe_9')
+def Banco_de_Dados_2020_1_1ºsem_Equipe_9():   
+    return render_template("Banco_de_Dados/2020_1_1ºsem_Equipe_9.html")
+
+
+
+# ------------------ 2ºA -----------------
+
+@app.route('/Banco_de_Dados/2020_1_2ºsem_Equipe_1')
+def Banco_de_Dados_2020_1_2ºsem_Equipe_1():   
+    return render_template("Banco_de_Dados/2020_1_2ºsem_Equipe_1.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_2ºsem_Equipe_2')
+def Banco_de_Dados_2020_1_2ºsem_Equipe_2():   
+    return render_template("Banco_de_Dados/2020_1_2ºsem_Equipe_2.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_2ºsem_Equipe_6')
+def Banco_de_Dados_2020_1_2ºsem_Equipe_6():   
+    return render_template("Banco_de_Dados/2020_1_2ºsem_Equipe_6.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_2ºsem_Equipe_7')
+def Banco_de_Dados_2020_1_2ºsem_Equipe_7():   
+    return render_template("Banco_de_Dados/2020_1_2ºsem_Equipe_7.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_2ºsem_Equipe_8')
+def Banco_de_Dados_2020_1_2ºsem_Equipe_8():   
+    return render_template("Banco_de_Dados/2020_1_2ºsem_Equipe_8.html")
+
+
+#---------------- 5ºA -------------------------------
+
+@app.route('/Banco_de_Dados/2020_1_5ºsem_Equipe_1')
+def Banco_de_Dados_2020_1_5ºsem_Equipe_1():   
+    return render_template("Banco_de_Dados/2020_1_5ºsem_Equipe_1.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_5ºsem_Equipe_2')
+def Banco_de_Dados_2020_1_5ºsem_Equipe_2():   
+    return render_template("Banco_de_Dados/2020_1_5ºsem_Equipe_2.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_5ºsem_Equipe_3')
+def Banco_de_Dados_2020_1_5ºsem_Equipe_3():   
+    return render_template("Banco_de_Dados/2020_1_5ºsem_Equipe_3.html")
+
+
+@app.route('/Banco_de_Dados/2020_1_5ºsem_Equipe_5')
+def Banco_de_Dados_2020_1_5ºsem_Equipe_5():   
+    return render_template("Banco_de_Dados/2020_1_5ºsem_Equipe_5.html")
+
+
+#------------------ 6ºA -------------------
+
+@app.route('/Banco_de_Dados/2020_1_6ºsem_Equipe_1')
+def Banco_de_Dados_2020_1_6ºsem_Equipe_1():   
+    return render_template("Banco_de_Dados/2020_1_6ºsem_Equipe_1.html")
+
+
+
+#-------- 2020_2 -----------------------
+
+
+
+
+
+
+
+
+
+
+#------- 2021_1 -------------------
+
+
+
+
+
 
 #-----------------------------------------
 
@@ -486,12 +590,12 @@ def manav():
 #----------- 2020_2 -----------------
 #--------- 2ºA --------------------------
 
-@app.route('/MANAV/2020_2_2ºsem_Equipe_Delta')
+@app.route('/Manutenção_de_Aeronaves/2020_2_2ºsem_Equipe_Delta')
 def MANAV_2ºsem_Equipe_Delta_2021_2():   
     return render_template("Manutenção_de_Aeronaves/2020_2_2ºsem_Equipe_Delta.html")
 
 
-@app.route('/MANAV/2020_2_2ºsem_Equipe_Foxtrot')
+@app.route('/Manutenção_de_Aeronaves/2020_2_2ºsem_Equipe_Foxtrot')
 def MANAV_2ºsem_Equipe_Foxtrot_2021_2():   
     return render_template("Manutenção_de_Aeronaves/2020_2_2ºsem_Equipe_Foxtrot.html")
 
