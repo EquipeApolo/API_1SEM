@@ -477,12 +477,26 @@ def DSM_1ºsemestre_equipe3_2021_1():
 def DSM_1ºsemestre_equipeProgramoid_2021_1():   
     return render_template("DSM/2021_1ºsemestre_equipeProgramoid.html")
 
+#----------------------------------------------------------------------------------------
 
 @app.route('/MANAV')
 def manav():   
     return render_template("MANAV.html")
 
+#----------- 2020_2 -----------------
+#--------- 2ºA --------------------------
 
+@app.route('/MANAV/2020_2_2ºsem_Equipe_Delta')
+def MANAV_2ºsem_Equipe_Delta_2021_2():   
+    return render_template("Manutenção_de_Aeronaves/2020_2_2ºsem_Equipe_Delta.html")
+
+
+@app.route('/MANAV/2020_2_2ºsem_Equipe_Foxtrot')
+def MANAV_2ºsem_Equipe_Foxtrot_2021_2():   
+    return render_template("Manutenção_de_Aeronaves/2020_2_2ºsem_Equipe_Foxtrot.html")
+
+
+#--------------------------------------------------
 
 @app.route('/contribua', methods=["GET", "POST"])
 def contribua():
