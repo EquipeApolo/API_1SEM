@@ -447,9 +447,35 @@ def Turma_6ºA_Equipe_6_2021_1():
 def bd():   
     return render_template("BD.html")
 
+
+#-----------------------------------------
+
+
 @app.route('/DSM')
 def dsm():   
     return render_template("DSM.html")
+
+#--------- 2021_1 -------------
+
+#--------- 1ºA ----------------
+
+@app.route('/DSM/2021_1_1ºsemestre_equipe1')
+def DSM_1ºsemestre_equipe1_2021_1():   
+    return render_template("DSM/2021_1_1ºsemestre_equipe1.html")
+
+
+@app.route('/DSM/2021_1_1ºsemestre_equipe2')
+def DSM_1ºsemestre_equipe2_2021_1():   
+    return render_template("DSM/2021_1_1ºsemestre_equipe2.html")
+
+@app.route('/DSM/2021_1_1ºsemestre_equipe3')
+def DSM_1ºsemestre_equipe3_2021_1():   
+    return render_template("DSM/2021_1_1ºsemestre_equipe3.html")
+
+
+@app.route('/DSM/2021_1ºsemestre_equipeProgramoid')
+def DSM_1ºsemestre_equipeProgramoid_2021_1():   
+    return render_template("DSM/2021_1ºsemestre_equipeProgramoid.html")
 
 
 @app.route('/MANAV')
