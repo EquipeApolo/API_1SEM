@@ -15,38 +15,38 @@ def projetos():
 
 #-----------------------------------------------------
 
-@app.route('/ads')
+@app.route('/ADS')
 def ads():   
     return render_template("ADS.html")
 
 # ------ 2020_1 --------
 # ------- 1ºA ----------
 
-@app.route('/ads/2020_1_Turma_A_Equipe_Team_Of_The_Semester')
+@app.route('/ADS/2020_1_Turma_A_Equipe_Team_Of_The_Semester')
 def Turma_A_Equipe_Team_Of_The_Semester_2020_1():   
     return render_template("ADS/2020_1_Turma_A_Equipe_Team_Of_The_Semester.html")
 
-@app.route('/ads/2020_1_Turma_A_Equipe_Smart_Stock')
+@app.route('/ADS/2020_1_Turma_A_Equipe_Smart_Stock')
 def Turma_A_Equipe_Smart_Stock_2020_1():   
     return render_template("ADS/2020_1_Turma_A_Equipe_Smart_Stock.html")
 
 
-@app.route('/ads/2020_1_Turma_A_Equipe_Psyco')
+@app.route('/ADS/2020_1_Turma_A_Equipe_Psyco')
 def Turma_A_Equipe_Psyco_2020_1():   
     return render_template("ADS/2020_1_Turma_A_Equipe_Psyco.html")
 
 
-@app.route('/ads/2020_1_Turma_A_Equipe_Hexágono')
+@app.route('/ADS/2020_1_Turma_A_Equipe_Hexágono')
 def Turma_A_Equipe_Hexágono_2020_1():   
     return render_template("ADS/2020_1_Turma_A_Equipe_Hexágono.html")
 
 
-@app.route('/ads/2020_1_Turma_A_Equipe Energy Control')
+@app.route('/ADS/2020_1_Turma_A_Equipe Energy Control')
 def Turma_A_Equipe_Energy_Control_2020_1():   
     return render_template("ADS/2020_1_Turma_A_Equipe Energy Control.html")
 
 
-@app.route('/ads/2020_1_Turma_A_Equipe_3RAG')
+@app.route('/ADS/2020_1_Turma_A_Equipe_3RAG')
 def Turma_A_Equipe_3RAG_2020_1():   
     return render_template("ADS/2020_1_Turma_A_Equipe_3RAG.html")
 
@@ -54,24 +54,119 @@ def Turma_A_Equipe_3RAG_2020_1():
 #------ 1ºB ---------
 
 
-@app.route('/ads/2020_1_Turma_B_Equipe_Home_Solutions')
+@app.route('/ADS/2020_1_Turma_B_Equipe_Home_Solutions')
 def Turma_B_Equipe_Home_Solutions_2020_1():   
     return render_template("ADS/2020_1_Turma_B_Equipe_Home_Solutions.html")
 
 
-@app.route('/ads/2020_1_Turma_B_Equipe_iPET')
+@app.route('/ADS/2020_1_Turma_B_Equipe_iPET')
 def Turma_B_Equipe_iPET_2020_1():   
     return render_template("ADS/2020_1_Turma_B_Equipe_iPET.html")
 
 
-@app.route('/ads/2020_1_Turma_B_Equipe_JeRso')
+@app.route('/ADS/2020_1_Turma_B_Equipe_JeRso')
 def Turma_B_Equipe_JeRso_2020_1():   
     return render_template("ADS/2020_1_Turma_B_Equipe_JeRso.html")
 
 
-@app.route('/ads/2020_1_Turma_B_Equipe_Slim')
+@app.route('/ADS/2020_1_Turma_B_Equipe_Slim')
 def Turma_B_Equipe_Slim_2020_1():   
     return render_template("ADS/2020_1_Turma_B_Equipe_Slim.html")
+
+#-------- 2ºA-------------------------------------------------------
+
+@app.route('/ADS/2020_1_Turma_2ºA_Equipe_1')
+def Turma_2ºA_Equipe_1_2020_1():   
+    return render_template("ADS/2020_1_Turma_2ºA_Equipe_1.html")
+
+
+@app.route('/ADS/2020_1_Turma_2ºA_Equipe_2')
+def Turma_2ºA_Equipe_2_2020_1():   
+    return render_template("ADS/2020_1_Turma_2ºA_Equipe_2.html")
+
+@app.route('/ADS/2020_1_Turma_2ºA_Equipe_3')
+def Turma_2ºA_Equipe_3_2020_1():   
+    return render_template("ADS/2020_1_Turma_2ºA_Equipe_3.html")
+
+
+@app.route('/ADS/2020_1_Turma_2ºA_Equipe_4')
+def Turma_2ºA_Equipe_4_2020_1():   
+    return render_template("ADS/2020_1_Turma_2ºA_Equipe_4.html")
+
+@app.route('/ADS/2020_1_Turma_2ºA_Equipe_5')
+def Turma_2ºA_Equipe_5_2020_1():   
+    return render_template("ADS/2020_1_Turma_2ºA_Equipe_5.html")
+
+
+#-------------- 2ºB--------------------------------------
+
+@app.route('/ADS/2020_1_Turma_2ºB_Equipe_1')
+def Turma_2ºB_Equipe_1_2020_1():   
+    return render_template("ADS/2020_1_Turma_2ºB_Equipe_1.html")
+
+
+@app.route('/ADS/2020_1_Turma_2ºB_Equipe_3')
+def Turma_2ºB_Equipe_3_2020_1():   
+    return render_template("ADS/2020_1_Turma_2ºB_Equipe_3.html")
+
+#-------- 3º A ------
+
+@app.route('/ADS/2020_1_Turma_3ºA_Equipe_1')
+def Turma_3ºA_Equipe_1_2020_1():   
+    return render_template("ADS/2020_1_Turma_3ºA_Equipe_1.html")
+
+@app.route('/ADS/2020_1_Turma_3ºA_Equipe_2')
+def Turma_3ºA_Equipe_2_2020_1():   
+    return render_template("ADS/2020_1_Turma_3ºA_Equipe_2.html")
+
+
+@app.route('/ADS/2020_1_Turma_3ºA_Equipe_3')
+def Turma_3ºA_Equipe_3_2020_1():   
+    return render_template("ADS/2020_1_Turma_3ºA_Equipe_3.html")
+
+@app.route('/ADS/2020_1_Turma_3ºA_Equipe_4')
+def Turma_3ºA_Equipe_4_2020_1():   
+    return render_template("ADS/2020_1_Turma_3ºA_Equipe_4.html")
+
+@app.route('/ADS/2020_1_Turma_3ºA_Equipe_5')
+def Turma_3ºA_Equipe_5_2020_1():   
+    return render_template("ADS/2020_1_Turma_3ºA_Equipe_5.html")
+
+# ------------ 5º A ---------------
+
+@app.route('/ADS/2020_1_Turma_5ºA_Equipe_2')
+def Turma_5ºA_Equipe_2_2020_1():   
+    return render_template("ADS/2020_1_Turma_5ºA_Equipe_2.html")
+
+@app.route('/ADS/2020_1_Turma_5ºA_Equipe_5')
+def Turma_5ºA_Equipe_5_2020_1():   
+    return render_template("ADS/2020_1_Turma_5ºA_Equipe_5.html")
+
+@app.route('/ADS/2020_1_Turma_5ºA_Equipe_7')
+def Turma_5ºA_Equipe_7_2020_1():   
+    return render_template("ADS/2020_1_Turma_5ºA_Equipe_7.html")
+
+
+@app.route('/ADS/2020_1_Turma_5ºA_Equipe_8')
+def Turma_5ºA_Equipe_8_2020_1():   
+    return render_template("ADS/2020_1_Turma_5ºA_Equipe_8.html")
+
+
+#--------- 6ºA ---------------------
+
+@app.route('/ADS/2020_1_Turma_6ºA_Equipe_1')
+def Turma_6ºA_Equipe_1_2020_1():   
+    return render_template("ADS/2020_1_Turma_6ºA_Equipe_1.html")
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -89,16 +184,16 @@ def Turma_B_Equipe_Slim_2020_1():
 
 #--------------------------------------------------
 
-@app.route('/bd')
+@app.route('/BD')
 def bd():   
     return render_template("BD.html")
 
-@app.route('/dsm')
+@app.route('/DSM')
 def dsm():   
     return render_template("DSM.html")
 
 
-@app.route('/manav')
+@app.route('/MANAV')
 def manav():   
     return render_template("MANAV.html")
 
