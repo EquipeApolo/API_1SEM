@@ -536,19 +536,159 @@ def Banco_de_Dados_2020_1_6ºsem_Equipe_1():
 
 #-------- 2020_2 -----------------------
 
+#---------- 1ºA -----------------
+
+@app.route('/Banco_de_Dados/2020_2_1ºsem_Equipe_1')
+def Banco_de_Dados_2020_2_1ºsem_Equipe_1():   
+    return render_template("Banco_de_Dados/2020_2_1ºsem_Equipe_1.html")
+
+@app.route('/Banco_de_Dados/2020_2_1ºsem_Equipe_2')
+def Banco_de_Dados_2020_2_1ºsem_Equipe_2():   
+    return render_template("Banco_de_Dados/2020_2_1ºsem_Equipe_2.html")
 
 
+@app.route('/Banco_de_Dados/2020_2_1ºsem_Equipe_3')
+def Banco_de_Dados_2020_2_1ºsem_Equipe_3():   
+    return render_template("Banco_de_Dados/2020_2_1ºsem_Equipe_3.html")
 
 
+@app.route('/Banco_de_Dados/2020_2_1ºsem_Equipe_4')
+def Banco_de_Dados_2020_2_1ºsem_Equipe_4():   
+    return render_template("Banco_de_Dados/2020_2_1ºsem_Equipe_4.html")
 
 
+@app.route('/Banco_de_Dados/2020_2_1ºsem_Equipe_6')
+def Banco_de_Dados_2020_2_1ºsem_Equipe_6():   
+    return render_template("Banco_de_Dados/2020_2_1ºsem_Equipe_6.html")
 
+
+#----------- 2ºA ----------------
+
+@app.route('/Banco_de_Dados/2020_2_2ºsem_Equipe_1')
+def Banco_de_Dados_2020_2_2ºsem_Equipe_1():   
+    return render_template("Banco_de_Dados/2020_2_2ºsem_Equipe_1.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_2ºsem_Equipe_2')
+def Banco_de_Dados_2020_2_2ºsem_Equipe_2():   
+    return render_template("Banco_de_Dados/2020_2_2ºsem_Equipe_2.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_2ºsem_Equipe_3')
+def Banco_de_Dados_2020_2_2ºsem_Equipe_3():   
+    return render_template("Banco_de_Dados/2020_2_2ºsem_Equipe_3.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_2ºsem_Equipe_4')
+def Banco_de_Dados_2020_2_2ºsem_Equipe_4():   
+    return render_template("Banco_de_Dados/2020_2_2ºsem_Equipe_4.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_2ºsem_Equipe_5')
+def Banco_de_Dados_2020_2_2ºsem_Equipe_5():   
+    return render_template("Banco_de_Dados/2020_2_2ºsem_Equipe_5.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_2ºsem_Equipe_6')
+def Banco_de_Dados_2020_2_2ºsem_Equipe_6():   
+    return render_template("Banco_de_Dados/2020_2_2ºsem_Equipe_6.html")
+
+@app.route('/Banco_de_Dados/2020_2_2ºsem_Equipe_7')
+def Banco_de_Dados_2020_2_2ºsem_Equipe_7():   
+    return render_template("Banco_de_Dados/2020_2_2ºsem_Equipe_7.html")
+
+#----------- 3ºA -------------------------
+
+@app.route('/Banco_de_Dados/2020_2_3ºsem_Equipe_ScoreWizard')
+def Banco_de_Dados_2020_2_3ºsem_Equipe_ScoreWizard():   
+    return render_template("Banco_de_Dados/2020_2_3ºsem_Equipe_ScoreWizard.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_3ºsem_Equipe_TecnoCode')
+def Banco_de_Dados_2020_2_3ºsem_Equipe_TecnoCode():   
+    return render_template("Banco_de_Dados/2020_2_3ºsem_Equipe_TecnoCode.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_3ºsem_Equipe_ValCode')
+def Banco_de_Dados_2020_2_3ºsem_Equipe_ValCode():   
+    return render_template("Banco_de_Dados/2020_2_3ºsem_Equipe_ValCode.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_3ºsem_Equipe_ComixZone')
+def Banco_de_Dados_2020_2_3ºsem_Equipe_ComixZone():   
+    return render_template("Banco_de_Dados/2020_2-3ºsem_Equipe_ComixZone.html")
+
+
+#------------- 5ºA ---------------------
+
+@app.route('/Banco_de_Dados/2020_2_5ºsem_Equipe_1')
+def Banco_de_Dados_2020_2_5ºsem_Equipe_1():   
+    return render_template("Banco_de_Dados/2020_2_5ºsem_Equipe_1.html")
+
+
+@app.route('/Banco_de_Dados/2020_2_5ºsem_Equipe_2')
+def Banco_de_Dados_2020_2_5ºsem_Equipe_2():   
+    return render_template("Banco_de_Dados/2020_2_5ºsem_Equipe_2.html")
+
+@app.route('/Banco_de_Dados/2020_2_5ºsem_Equipe_3')
+def Banco_de_Dados_2020_2_5ºsem_Equipe_3():   
+    return render_template("Banco_de_Dados/2020_2_5ºsem_Equipe_3.html")
 
 
 #------- 2021_1 -------------------
 
+#--------- 1ºA -------------------------
+
+@app.route('/Banco_de_Dados/2021_1_1ºsemestre_equipe_CodeYCode')
+def Banco_de_Dados_2021_1_1ºsem_equipe_CodeYCode():   
+    return render_template("Banco_de_Dados/2021_1_1ºsemestre_equipe_CodeYCode.html")
 
 
+@app.route('/Banco_de_Dados/2021_1_1ºsemestre_equipe_Phamtom')
+def Banco_de_Dados2021_1_1ºsemestre_equipe_Phamtom():   
+    return render_template("Banco_de_Dados/2021_1_1ºsemestre_equipe_Phamtom.html")
+
+
+@app.route('/Banco_de_Dados/2021_1_1ºsemestre_equipe_SilverCod3')
+def Banco_de_Dados2021_1_1ºsemestre_equipe_SilverCod3():   
+    return render_template("Banco_de_Dados/2021_1_1ºsemestre_equipe_SilverCod3.html")
+
+
+@app.route('/Banco_de_Dados/2021_1_1ºsemestre_equipe_TheLooksDatabase')
+def Banco_de_Dados2021_1_1ºsemestre_equipe_TheLooksDatabase():   
+    return render_template("Banco_de_Dados/2021_1_1ºsemestre_equipe_TheLooksDatabase.html")
+
+
+#------------- 2ºA ------------------------
+
+@app.route('/Banco_de_Dados/2021_1_2ºsemestre_equipe_DevStore')
+def Banco_de_Dados2021_1_2ºsemestre_equipe_DevStore():   
+    return render_template("Banco_de_Dados/2021_1_2ºsemestre_equipe_DevStore.html")
+
+
+@app.route('/Banco_de_Dados/2021_1_2ºsemestre_equipe_JavaPastry')
+def Banco_de_Dados2021_1_2ºsemestre_equipe_JavaPastry():   
+    return render_template("Banco_de_Dados/2021_1_2ºsemestre_equipe_JavaPastry.html")
+
+
+
+@app.route('/Banco_de_Dados/2021_1_2ºsemestre_equipe_Tetris')
+def Banco_de_Dados2021_1_2ºsemestre_equipe_Tetris():   
+    return render_template("Banco_de_Dados/2021_1_2ºsemestre_equipe_Tetris.html")
+
+
+#------------------ 3ºA --------------------
+
+@app.route('/Banco_de_Dados/2021_1_3ºsemestre_equipe4')
+def Banco_de_Dados2021_1_3ºsemestre_equipe4():   
+    return render_template("Banco_de_Dados/2021_1_3ºsemestre_equipe4.html")
+
+
+#--------------------- 4ºA --------------------------
+
+@app.route('/Banco_de_Dados/2021_1_4ºsemestre_equipe_Pythaon')
+def Banco_de_Dados2021_1_4ºsemestre_equipe_Pythaon():   
+    return render_template("Banco_de_Dados/2021_1_4ºsemestre_equipe_Pythaon.html")
 
 
 
