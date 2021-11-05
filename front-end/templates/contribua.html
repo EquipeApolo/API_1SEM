@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/style.css">
+		<link rel="shortcut icon" href="../static/imagens/icone.ico" type="image/x-icon">
+
+    <title>Contribua</title>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projetos.html">PROJETOS</a></li> <!-- Vai redirecionar para a  Página De Projetos-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="top">
+            <h1>Contribua</h1>
+            
+
+        </div>
+			
+        <article>
+            <aside>
+
+                <h2 class="espaçamento">Como contribuir?</h2>
+               
+                <p>	Para ser um contribuidor é necessário preencher o formulário de requisição de acesso que será analisado pelo gerenciamento da FATEC. 
+                    O acesso permite controle ao repositório de projetos de API disponibilizados na plataforma de versionamento GITBUB. 
+                    Dessa forma, torna-se viável o acompanhamento e manipulação dos projetos clonados e que poderão ser adicionados posteriormente, além do acesso livre aos códigos do site (HTML, CSS) e automatização da clonagem via Python. 
+                </p>
+            </aside>
+
+
+            <div>
+
+                <form  method="get">
+                    <p>Seu nome: </p>
+                        <input type="txt" name="nome" ><br>
+                    <p>Email: </p>
+                        <input type="txt" name="email" ><br>
+                   
+                       <input type="submit" value="Enviar">
+                    </form>
+                    
+            </div>
+                
+                    {% if resultado %}
+                    <div>
+                    {{resultado}}
+                    </div>
+                    {% endif %}
+
+        </article>
+    </main>
+    <footer>
+        <picture>
+                <source media="(max-width: 490px )" srcset="../static/imagens/brasao-200.png" type="image/png">
+                 <img class="fatec-gov" src="../static/imagens/cps_brasao_sp_320x84.png" alt="brasão"></img>
+            </picture>
+        
+        <nav class="footer">
+            <aside class="link">
+                <a href="index.html">HOME</a>
+                <a href="projetos.html">PROJETOS</a> <!-- Vai redirecionar para a  Página De Projetos-->
+            </aside>
+            <aside class="social">
+                <a href="https://www.instagram.com/fatecsaojosedoscampos/" target="_blank" rel="external"><img src="../static/imagens/instagram-40.png" alt="instagram"></img></a>
+                <a href="https://www.linkedin.com/school/fatecjessenvidal" target="_blank" rel="external"><img src="../static/imagens/linkedin-40.png" alt="linkedin"></img></a>
+            
+                <a href="https://www.youtube.com/channel/UCRTd_ST0vPqXi4w_ZdfXtiw" target="_blank" rel="external"><img src="../static/imagens/youtube-40.png" alt="youtube"></img></a>
+                <a href="https://www.facebook.com/fatecjessenvidal" target="_blank" rel="external"><img src="../static/imagens/facebook-40.png" alt="facebook"></img></a>
+            </aside>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>
