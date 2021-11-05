@@ -61,7 +61,7 @@ def ler(art):
 				
 def email(email_p, nome):
     try:
-        email = 'equipe3api2021@outlook.com'
+        email = 'novos_colaboradores@outlook.com'
         ddd = ler('.arq.txt')
         corpo = f"""A pessoa {nome}, com o email: {email_p} está interessada em contribuir no 			projeto."""
 
