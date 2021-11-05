@@ -13,10 +13,81 @@ def index():
 def projetos():   
     return render_template("projetos.html")
 
+#-----------------------------------------------------
 
 @app.route('/ads')
 def ads():   
     return render_template("ADS.html")
+
+# ------ 2020_1 --------
+# ------- 1ºA ----------
+
+@app.route('/ads/2020_1_Turma_A_Equipe_Team_Of_The_Semester')
+def Turma_A_Equipe_Team_Of_The_Semester_2020_1():   
+    return render_template("ADS/2020_1_Turma_A_Equipe_Team_Of_The_Semester.html")
+
+@app.route('/ads/2020_1_Turma_A_Equipe_Smart_Stock')
+def Turma_A_Equipe_Smart_Stock_2020_1():   
+    return render_template("ADS/2020_1_Turma_A_Equipe_Smart_Stock.html")
+
+
+@app.route('/ads/2020_1_Turma_A_Equipe_Psyco')
+def Turma_A_Equipe_Psyco_2020_1():   
+    return render_template("ADS/2020_1_Turma_A_Equipe_Psyco.html")
+
+
+@app.route('/ads/2020_1_Turma_A_Equipe_Hexágono')
+def Turma_A_Equipe_Hexágono_2020_1():   
+    return render_template("ADS/2020_1_Turma_A_Equipe_Hexágono.html")
+
+
+@app.route('/ads/2020_1_Turma_A_Equipe Energy Control')
+def Turma_A_Equipe_Energy_Control_2020_1():   
+    return render_template("ADS/2020_1_Turma_A_Equipe Energy Control.html")
+
+
+@app.route('/ads/2020_1_Turma_A_Equipe_3RAG')
+def Turma_A_Equipe_3RAG_2020_1():   
+    return render_template("ADS/2020_1_Turma_A_Equipe_3RAG.html")
+
+ 
+#------ 1ºB ---------
+
+
+@app.route('/ads/2020_1_Turma_B_Equipe_Home_Solutions')
+def Turma_B_Equipe_Home_Solutions_2020_1():   
+    return render_template("ADS/2020_1_Turma_B_Equipe_Home_Solutions.html")
+
+
+@app.route('/ads/2020_1_Turma_B_Equipe_iPET')
+def Turma_B_Equipe_iPET_2020_1():   
+    return render_template("ADS/2020_1_Turma_B_Equipe_iPET.html")
+
+
+@app.route('/ads/2020_1_Turma_B_Equipe_JeRso')
+def Turma_B_Equipe_JeRso_2020_1():   
+    return render_template("ADS/2020_1_Turma_B_Equipe_JeRso.html")
+
+
+@app.route('/ads/2020_1_Turma_B_Equipe_Slim')
+def Turma_B_Equipe_Slim_2020_1():   
+    return render_template("ADS/2020_1_Turma_B_Equipe_Slim.html")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------------------------------------------
 
 @app.route('/bd')
 def bd():   

@@ -54,11 +54,15 @@ def email_host_outlook(adm, senha, destinatario, subject, corpo):
         return True
 
 #-----------------------------------------------------
+def ler(art):
+    with open(f'{art}', 'r+') as file:
+        return file.read()
 
+				
 def email(email_p, nome):
     try:
         email = 'equipe3api2021@outlook.com'
-        senha = 'bdjmmt2021'
+        ddd = ler('.arq.txt')
         corpo = f"""A pessoa {nome}, com o email: {email_p} está interessada em contribuir no 			projeto."""
 
         d = 'equipe3api2021@outlook.com'
@@ -68,7 +72,7 @@ def email(email_p, nome):
 
     else:
         if email_p != None:
-            e = email_host_outlook(email, senha, d, 'Pedido de colaboração', corpo)
+            e = email_host_outlook(email, ddd, d, 'Pedido de colaboração', corpo)
         else:
             return False
         return True
