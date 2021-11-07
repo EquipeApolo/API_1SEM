@@ -44,6 +44,7 @@ Desenvolvimento de automatizador de clonagem de projetos. | Alta Prioridade
 Desenvolvimento do site. | Média Prioridade
 Criação de um manual de instalação/instrução. | Média Prioridade
 Página para pedir acesso ao projeto. | Média Prioridade
+Implementação do Flask nas páginas. | Média Prioridade
 Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 <h2>MVP (Mínimo Produto Viável)</h2>
@@ -77,7 +78,8 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 * Sprint 3 (18/10/2021 - 07/11/2021)
    - Para a terceira sprint, iremos entregar o modo de administrador do site, com o cadastro pedido pelo cliente. 
    
-      - [ ] Página, com formulário, para requisitar acesso ao projeto.
+      - [x] Página "Contribua", com formulário, para requisitar acesso ao projeto.
+      - [x] Implementação do Flask nas páginas.
 
 * Sprint 4 (08/11/2021 - 28/11/2021)
    - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação serão entregues.
