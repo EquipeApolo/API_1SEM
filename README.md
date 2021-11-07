@@ -51,7 +51,7 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
    * Protótipo do site, entregue na primeira sprint.
    
-     <img src="artefatos/gif protótipo.gif"/>
+     <img src="imagens/gif protótipo.gif"/>
      
    * Automatizador de clonagens e site desenvolvido, entregues na segunda sprint.
    
