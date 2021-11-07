@@ -57,6 +57,10 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
    
      <img src="imagens/automatizador_sprint2.gif"/>
      <img src="imagens/site_sprint2.gif"/>
+     
+   * Página contribua, entregue na terceira sprint.
+   
+     <img src="imagens/pagina_contribua.gif"/>
 
 <h2>Entregas</h2>
 
