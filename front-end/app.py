@@ -761,7 +761,7 @@ def contribua():
     
 @app.route('/enviado')
 def enviado():   
-    return 'Email enviado!'
+    return render_template("enviado.html")
 
 if __name__=="__main__":
     app.run(debug=True)

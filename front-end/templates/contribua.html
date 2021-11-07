@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,17 @@
 		<link rel="shortcut icon" href="../static/imagens/icone.ico" type="image/x-icon">
 
     <title>Contribua</title>
+	
+	<style>
+		.espacamento{
+			padding: 3%;
+		
+		}
+		
+		.top{
+			padding: 1%;
+		}
+	</style>
 </head>
 <body>
     <header>
@@ -28,18 +39,16 @@
         </div>
 			
         <article>
-            <aside>
+            <aside class="espacamento">
 
-                <h2 class="espaçamento">Como contribuir?</h2>
+                <h2>Como contribuir?</h2>
                
                 <p>	Para ser um contribuidor é necessário preencher o formulário de requisição de acesso que será analisado pelo gerenciamento da FATEC. 
                     O acesso permite controle ao repositório de projetos de API disponibilizados na plataforma de versionamento GITBUB. 
                     Dessa forma, torna-se viável o acompanhamento e manipulação dos projetos clonados e que poderão ser adicionados posteriormente, além do acesso livre aos códigos do site (HTML, CSS) e automatização da clonagem via Python. 
                 </p>
-            </aside>
-
-
-            <div>
+				
+				<div>
 
                 <form  method="get">
                     <p>Seu nome: </p>
@@ -58,6 +67,7 @@
                     </div>
                     {% endif %}
 
+            </aside>
         </article>
     </main>
     <footer>
