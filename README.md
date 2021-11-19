@@ -42,9 +42,9 @@ Upload dos projetos clonados para o github. | Alta Prioridade
 Protótipo do site. | Alta Prioridade
 Desenvolvimento de automatizador de clonagem de projetos. | Alta Prioridade
 Desenvolvimento do site. | Média Prioridade
-Criação de um manual de instalação/instrução. | Média Prioridade
-Página para pedir acesso ao projeto. | Média Prioridade
 Implementação do Flask nas páginas. | Média Prioridade
+Criação de um manual de instalação/instrução. | Baixa Prioridade
+Página "Contribua", com formulário, para requisitar acesso ao projeto. | Baixa Prioridade
 
 <h2>MVP (Mínimo Produto Viável)</h2>
 
