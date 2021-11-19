@@ -86,7 +86,7 @@ Página "Contribua", com formulário, para requisitar acesso ao projeto. | Baixa
       - [x] Implementação do Flask nas páginas.
 
 * Sprint 4 (08/11/2021 - 28/11/2021)
-   - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação serão entregues.
+   - Para a última sprint iremos criar o manual de instalação serão entregues.
    
       - [ ] Criação de um manual de instalação/instrução.
 
