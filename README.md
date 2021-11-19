@@ -45,7 +45,6 @@ Desenvolvimento do site. | Média Prioridade
 Criação de um manual de instalação/instrução. | Média Prioridade
 Página para pedir acesso ao projeto. | Média Prioridade
 Implementação do Flask nas páginas. | Média Prioridade
-Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
 
 <h2>MVP (Mínimo Produto Viável)</h2>
 
@@ -90,7 +89,6 @@ Testes de funcionamento e correções de eventuais bugs. | Baixa Prioridade
    - Para a última sprint, a realização de testes de funcionamento e a criação de um manual de instalação serão entregues.
    
       - [ ] Criação de um manual de instalação/instrução.
-      - [ ] Testes de funcionamento e correções de eventuais bugs.
 
 <h2>Tecnologias utilizadas</h2>
 
