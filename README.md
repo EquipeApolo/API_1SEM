@@ -62,6 +62,11 @@ Página "Contribua", com formulário, para requisitar acesso ao projeto. | Baixa
      <img src="imagens/pagina_contribua.gif"/>
      <img src="imagens/email.gif"/>
 
+   * Manual de usuário.
+
+     <img src="imagens/manual.gif"/>
+     
+     
 <h2>Entregas</h2>
 
 * Sprint 1 (30/08/2021 - 19/09/2021)
@@ -88,7 +93,7 @@ Página "Contribua", com formulário, para requisitar acesso ao projeto. | Baixa
 * Sprint 4 (08/11/2021 - 28/11/2021)
    - Para a última sprint iremos criar o manual de instalação serão entregues.
    
-      - [ ] Criação de um manual de instalação/instrução.
+      - [x] Criação de um manual de instalação/instrução.
 
 <h2>Tecnologias utilizadas</h2>
 
