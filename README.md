@@ -29,7 +29,7 @@ Jeniffer Pereira | Desenvolvedor | [Jeniffer Pereira](https://github.com/jennyad
 
 * Requisitos não funcionais
   ---
-  - [ ] Manual de instalação.
+  - [x] Manual de instalação.
   - [x] Organização do github.
   
 <h2>Backlog do produto</h2>
