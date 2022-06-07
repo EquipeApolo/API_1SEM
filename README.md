@@ -1,5 +1,5 @@
 <h1 align="center">
-  Aprendizagem por Projetos Integrados
+  Aprendizagem por Projetos Integrados - 1º Semestre
   
   
 </h1>
